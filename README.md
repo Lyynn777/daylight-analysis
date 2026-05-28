@@ -177,7 +177,7 @@ streamlit run dashboard/app.py
 
 ## 🤖 Automated Pipeline
 
-This project uses **GitHub Actions** to run the scraper automatically on a schedule.
+This project uses **GitHub Actions** to run the scraper automatically on a schedule. (currently under progress)
 
 ```
 Every 1st of the month at 6:00 AM IST
