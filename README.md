@@ -39,10 +39,6 @@ To answer it, I built a complete data pipeline from scratch:
 
 ---
 
-## 🚀 Live Dashboard 🔗[view](https://india-daylight-analysis.streamlit.app/)
-
----
-
 ## 📁 Project Structure
 
 ```
@@ -88,7 +84,6 @@ daylight-analysis/
 | **Matplotlib** | 3.x | Static visualizations |
 | **Seaborn** | 0.13 | Statistical chart styling |
 | **Streamlit** | 1.57 | Interactive dashboard and deployment |
-| **GitHub Actions** | — | Automated scraping pipeline |
 
 <br>
 
