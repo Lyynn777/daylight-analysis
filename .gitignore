@@ -1,0 +1,12 @@
+# Keep raw data out of git (too large)
+# But keep processed CSVs — dashboard needs them
+data/raw/
+
+# Python
+__pycache__/
+*.pyc
+.env
+*.egg-info/
+
+# Streamlit
+.streamlit/secrets.toml
