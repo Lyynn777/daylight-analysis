@@ -23,11 +23,11 @@ This project answers a simple question:
 
 To answer it, I built a complete data pipeline from scratch:
 
-1. **Scraped** daily sunrise and sunset times for 365 days across 5 cities from [drikpanchang.com](https://www.drikpanchang.com) using Selenium — a JavaScript-rendered website that required browser automation since BeautifulSoup alone could not access the data.
+1. **Scraped** daily sunrise and sunset times for 365 days from [drikpanchang.com](https://www.drikpanchang.com) using Selenium — a JavaScript-rendered website that required browser automation since BeautifulSoup alone could not access the data.
 
 2. **Cleaned and engineered** features including day duration, season labels, monthly averages, and day-of-year numbers using Pandas.
 
-3. **Analyzed** seasonal patterns and compared how latitude affects the annual swing in daylight hours across Bengaluru, Delhi, Mumbai, Chennai, and Kolkata.
+3. **Analyzed** seasonal patterns and compared how latitude affects the annual swing in daylight hours across Bengaluru.
 
 4. **Visualized** the findings using Matplotlib and Seaborn across 5 chart types.
 
@@ -46,7 +46,7 @@ daylight-analysis/
 │
 ├── .github/
 │   └── workflows/
-│       └── scrape.yml              ← GitHub Actions automation
+│       └── scrape.yml              ← GitHub Actions automation (still under progress)
 │
 ├── data/
 │   ├── raw/                        ← Raw scraped CSVs (gitignored)
